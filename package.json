@@ -1,16 +1,10 @@
 {
-  "name": "vue-speedometer",
+  "name": "vue-speedometer2",
   "version": "1.0.0",
   "description": "Vue component for showing speedomenter like gauge with d3, customized for the needs of the responsable(gustavo003)",
-  "author": {
-    "name": "palerdot",
-    "email": "palerdot@gmail.com"
-  },
+  "author": "palerdot <palerdot@gmail.com>",
   "contributors": [
-    {
-      "name": "gustavo003",
-      "email": "gustavooliveira5003@gmail.com"
-    }
+    "gustavo003 <gustavooliveira5003@gmail.com>"
   ],
   "scripts": {
     "lint": "prettier -l src/index.js src/props.js src/__tests__/**/**.js",
@@ -101,7 +95,6 @@
   "peerDependencies": {
     "vue": "^2.6.10"
   },
-
   "engines": {
     "node": ">=8.0",
     "npm": ">=3.0.0"
@@ -117,5 +110,12 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gustavo003/vue-speedometer2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gustavo003/vue-speedometer2/issues"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
   }
 }
